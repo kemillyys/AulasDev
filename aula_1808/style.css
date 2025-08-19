@@ -1,0 +1,43 @@
+/* isso é um comnetário em CSS */
+
+/*SELETOR DE ELEMENTOS*/
+body{
+    background-color: antiquewhite;
+}
+
+h1 {
+    color: navy;
+}
+
+/*SELETOR DE ID*/
+#p3{
+    color: blue;
+}
+
+#p4{
+    color: red;
+}
+
+#xuxu{
+    background-color: lightcoral;
+    color: black;
+}
+
+#chuchu{
+    text-align: center;
+}
+
+/* SELETOR DE CLASSES */
+.estiloso{
+    border-style: solid;
+    border-color: rgb(255, 136, 0);
+}
+
+/* afeta somente os parágrafos da classe centraliza*/
+p.centraliza{
+    text-align: center;
+}
+
+li.centraliza{
+    text-align: center;
+}
