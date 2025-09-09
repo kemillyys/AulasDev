@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula 08/09</title>
+</head>
+<body>
+    <div>
+        <h1>Formulários HTML</h1>
+    </div>
+
+    <div>
+        <form action="#" method="post"> <!-- a # indica que ficaremos nessa página mesmo -->
+            <label for="nome">Nome:</label>
+            <input id="nome" name="nome" type="text" placeholder="Seu Nome" required autocomplete="address-level1">
+            <br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="nome@email.com">
+            <br>
+
+            <label for="periodo">Período:</label>
+            <input type="number" name="periodo" id="periodo" max="4" min="1" step="2"> <!-- step: passos de contador numérico-->
+            <br>
+
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" required maxlength="12" minlength="8">
+            <br>
+
+            <label for="nasc">Data de Nascimento:</label>
+            <input type="date" name="nasc" id="nasc">
+            <br>
+
+            <label for="feliz">Quanto você está feliz?: </label>
+            <input type="range" name="feliz" id="feliz" min="0" max="100">
+            <br>
+
+            <p>Você gosta de estudar?</p>
+            <label for="estuda">Sim</label>
+            <input type="radio" name="estuda">
+            <label for="naoestuda" name="nao">Não</label>
+            <input type="radio" name="estuda">
+            <br>
+
+            <p>Quais matérias você mais gosta?</p>
+            <label for="alg">Algritimos</label>
+            <input type="checkbox" name="alg"><br>
+            <label for="dev">Desenvolvimento Web</label>
+            <input type="checkbox" name="dev"><br>
+            <label for="bd">Banco de Dados</label>
+            <input type="checkbox" name="bd">
+            <br>
+
+            <input type="submit" value="Salvar">
+        </form>
+    </div>
+
+</body>
+</html>
